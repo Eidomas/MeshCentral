@@ -21,8 +21,10 @@
     "meshcentral": "bin/meshcentral"
   },
     "scripts": {
-    "start": "node meshcentral.js"
-  },
+  "start": "node meshcentral.js",
+  "build": "echo 'No build step needed'"
+}
+
   "license": "Apache-2.0",
   "files": [
     "*.js",
