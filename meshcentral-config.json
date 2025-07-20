@@ -1,0 +1,18 @@
+{
+  "settings": {
+    "port": 3000,
+    "aliasPort": 80,
+    "redirPort": 0,
+    "sessionKey": "randomvalue",
+    "cert": "meshcentral.example.com",
+    "WANonly": true
+  },
+  "domains": {
+    "": {
+      "title": "My MeshCentral",
+      "title2": "Remote Management",
+      "userName": "admin",
+      "newAccounts": true
+    }
+  }
+}
