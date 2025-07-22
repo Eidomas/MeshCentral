@@ -1,0 +1,20 @@
+{
+  "settings": {
+    "port": 80,
+    "aliasPort": 443,
+    "redirPort": 800,
+    "agentPort": 4433,
+    "exactPorts": true,
+    "WANonly": true,
+    "TlsOffload": true
+  },
+  "domains": {
+    "": {
+      "title": "MeshCentral",
+      "title2": "Remote Management",
+      "newAccounts": false,
+      "userNameIsEmail": false,
+      "certUrl": "meshcentral-production.up.railway.app"
+    }
+  }
+}
